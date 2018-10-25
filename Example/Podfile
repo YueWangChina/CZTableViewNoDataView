@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CZTableViewNoDataView_Example' do
+  pod 'CZTableViewNoDataView', :path => '../'
+
+  target 'CZTableViewNoDataView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
