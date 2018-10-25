@@ -1,0 +1,6 @@
+framework module CZTableViewNoDataView {
+  umbrella header "CZTableViewNoDataView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CZTableViewNoDataView",
+  "version": "0.1.0",
+  "summary": "A short description of CZTableViewNoDataView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/454431208@qq.com/CZTableViewNoDataView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "454431208@qq.com": "wangyuexdy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/454431208@qq.com/CZTableViewNoDataView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CZTableViewNoDataView/Classes/**/*"
+}
