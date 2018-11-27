@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		066FEB1149FBFA99AB18DB86 /* Pods_CZTableViewNoDataView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6237DBCA68C0CE92C5F86590 /* Pods_CZTableViewNoDataView_Tests.framework */; };
-		2DDCA4DE3890D50541B0AE95 /* Pods_CZTableViewNoDataView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399053F889C10A210661915 /* Pods_CZTableViewNoDataView_Example.framework */; };
+		1E960F122E9CF128006BD79D /* libPods-CZTableViewNoDataView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7802E2449118730ED3CC7E /* libPods-CZTableViewNoDataView_Tests.a */; };
+		4EEEF01F789E99A5C216E32C /* libPods-CZTableViewNoDataView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82290F81481453822943FF7C /* libPods-CZTableViewNoDataView_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2E24100063F5E4EA3640C848 /* CZTableViewNoDataView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CZTableViewNoDataView.podspec; path = ../CZTableViewNoDataView.podspec; sourceTree = "<group>"; };
-		4399053F889C10A210661915 /* Pods_CZTableViewNoDataView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CZTableViewNoDataView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7802E2449118730ED3CC7E /* libPods-CZTableViewNoDataView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZTableViewNoDataView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CZTableViewNoDataView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZTableViewNoDataView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,11 +58,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6237DBCA68C0CE92C5F86590 /* Pods_CZTableViewNoDataView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CZTableViewNoDataView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CCEA957F39C4F6047ECD83 /* Pods-CZTableViewNoDataView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZTableViewNoDataView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZTableViewNoDataView_Tests/Pods-CZTableViewNoDataView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7261D73894B8C70906224E61 /* Pods-CZTableViewNoDataView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZTableViewNoDataView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZTableViewNoDataView_Tests/Pods-CZTableViewNoDataView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		737F89298F86AE0720CB3435 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		82290F81481453822943FF7C /* libPods-CZTableViewNoDataView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZTableViewNoDataView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		959FECF459E7894C7FBA5EF2 /* Pods-CZTableViewNoDataView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZTableViewNoDataView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZTableViewNoDataView_Example/Pods-CZTableViewNoDataView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A18B63E76FC32781B3E659C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2DDCA4DE3890D50541B0AE95 /* Pods_CZTableViewNoDataView_Example.framework in Frameworks */,
+				4EEEF01F789E99A5C216E32C /* libPods-CZTableViewNoDataView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				066FEB1149FBFA99AB18DB86 /* Pods_CZTableViewNoDataView_Tests.framework in Frameworks */,
+				1E960F122E9CF128006BD79D /* libPods-CZTableViewNoDataView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4399053F889C10A210661915 /* Pods_CZTableViewNoDataView_Example.framework */,
-				6237DBCA68C0CE92C5F86590 /* Pods_CZTableViewNoDataView_Tests.framework */,
+				82290F81481453822943FF7C /* libPods-CZTableViewNoDataView_Example.a */,
+				5C7802E2449118730ED3CC7E /* libPods-CZTableViewNoDataView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

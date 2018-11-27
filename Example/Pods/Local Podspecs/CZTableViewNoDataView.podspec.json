@@ -1,9 +1,9 @@
 {
   "name": "CZTableViewNoDataView",
-  "version": "0.1.0",
-  "summary": "A short description of CZTableViewNoDataView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/454431208@qq.com/CZTableViewNoDataView",
+  "version": "1.1.0",
+  "summary": "CZTableViewNoDataView.",
+  "description": "无数据占位图直接调用方法很方便.无数据占位图直接调用方法很方便.无数据占位图直接调用方法很方便.",
+  "homepage": "https://github.com/YueWangChina/CZTableViewNoDataView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "454431208@qq.com": "wangyuexdy@163.com"
   },
   "source": {
-    "git": "https://github.com/454431208@qq.com/CZTableViewNoDataView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/YueWangChina/CZTableViewNoDataView.git",
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CZTableViewNoDataView/Classes/**/*"
+  "source_files": "CZTableViewNoDataView/Classes/**/*.{h,m}"
 }

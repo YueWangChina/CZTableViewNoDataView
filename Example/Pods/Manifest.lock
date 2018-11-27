@@ -1,5 +1,5 @@
 PODS:
-  - CZTableViewNoDataView (0.1.0)
+  - CZTableViewNoDataView (1.1.0)
 
 DEPENDENCIES:
   - CZTableViewNoDataView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CZTableViewNoDataView: 8ddf749f843c21a96e11ca6a7a65ae336fea3c03
+  CZTableViewNoDataView: d7d22d0d5eee7fc0671502618a0b7c0991560929
 
-PODFILE CHECKSUM: d56be5bd03cae3eb8db2f57e05a4fcf2fce73ddc
+PODFILE CHECKSUM: f026cfc190347313c1e859e59e3df6ea042f9047
 
 COCOAPODS: 1.4.0
