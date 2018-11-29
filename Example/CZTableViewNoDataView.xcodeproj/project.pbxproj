@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E24100063F5E4EA3640C848 /* CZTableViewNoDataView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CZTableViewNoDataView.podspec; path = ../CZTableViewNoDataView.podspec; sourceTree = "<group>"; };
+		2E24100063F5E4EA3640C848 /* CZTableViewNoDataView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CZTableViewNoDataView.podspec; path = ../CZTableViewNoDataView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C7802E2449118730ED3CC7E /* libPods-CZTableViewNoDataView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZTableViewNoDataView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CZTableViewNoDataView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZTableViewNoDataView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		70CCEA957F39C4F6047ECD83 /* Pods-CZTableViewNoDataView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZTableViewNoDataView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZTableViewNoDataView_Tests/Pods-CZTableViewNoDataView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7261D73894B8C70906224E61 /* Pods-CZTableViewNoDataView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZTableViewNoDataView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZTableViewNoDataView_Tests/Pods-CZTableViewNoDataView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		737F89298F86AE0720CB3435 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		737F89298F86AE0720CB3435 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		82290F81481453822943FF7C /* libPods-CZTableViewNoDataView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZTableViewNoDataView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		959FECF459E7894C7FBA5EF2 /* Pods-CZTableViewNoDataView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZTableViewNoDataView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZTableViewNoDataView_Example/Pods-CZTableViewNoDataView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A18B63E76FC32781B3E659C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A18B63E76FC32781B3E659C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F4F966B407FFB1C0072DDDE7 /* Pods-CZTableViewNoDataView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZTableViewNoDataView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZTableViewNoDataView_Example/Pods-CZTableViewNoDataView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

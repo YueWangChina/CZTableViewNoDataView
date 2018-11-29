@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-static NSString * const CZNoDataViewObserveKeyPath = @"frame";
 @interface CZNoDataView : UIView
 
 @end

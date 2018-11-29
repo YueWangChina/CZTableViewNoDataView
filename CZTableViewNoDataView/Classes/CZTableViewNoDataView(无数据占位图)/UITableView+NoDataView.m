@@ -93,7 +93,7 @@
     if ([self.delegate respondsToSelector:@selector(cz_noDataView)]) {
         UIView *customView = [self.delegate performSelector:@selector(cz_noDataView)];
         //  实现跟随 TableView 滚动
-        [customView addObserver:self forKeyPath:CZNoDataViewObserveKeyPath options:NSKeyValueObservingOptionNew context:nil];
+        [customView addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew context:nil];
         self.backgroundView =customView;
         return ;
     }
@@ -156,7 +156,7 @@
     [view addSubview:label];
     
     //  实现跟随 TableView 滚动
-    [view addObserver:self forKeyPath:CZNoDataViewObserveKeyPath options:NSKeyValueObservingOptionNew context:nil];
+    [view addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew context:nil];
     return view;
 }
 
@@ -165,7 +165,7 @@
  监听
  */
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-    if ([keyPath isEqualToString:CZNoDataViewObserveKeyPath]) {
+    if ([keyPath isEqualToString:@"frame"]) {
         
         /**
          在 TableView 滚动 ContentOffset 改变时, 会同步改变 backgroundView 的 frame.origin.y
@@ -204,7 +204,7 @@
 - (void)freeNoDataViewIfNeeded {
     
     if ([self.backgroundView isKindOfClass:[UIView class]]) {
-        [self.backgroundView removeObserver:self forKeyPath:CZNoDataViewObserveKeyPath context:nil];
+        [self.backgroundView removeObserver:self forKeyPath:@"frame" context:nil];
     }
 }
 
